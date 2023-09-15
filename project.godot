@@ -11,5 +11,12 @@ config_version=5
 [application]
 
 config/name="UVNT_demo_VN_jam"
+run/main_scene="res://scenes/visual_novel_scenes/template.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/mode=2
+window/stretch/mode="viewport"
+window/stretch/aspect="ignore"

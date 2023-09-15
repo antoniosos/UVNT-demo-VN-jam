@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://0vgaiulv4xv7"]
+
+[ext_resource type="Texture2D" uid="uid://b0ta8ahr3oyba" path="res://assets/visual_novel_assets/Blank_textbox.png" id="1_q0pf8"]
+
+[node name="template" type="Node2D"]
+
+[node name="text_box" type="Sprite2D" parent="."]
+texture = ExtResource("1_q0pf8")
