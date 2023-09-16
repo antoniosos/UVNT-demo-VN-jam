@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://0vgaiulv4xv7"]
+
+[ext_resource type="Script" path="res://scenes/visual_novel_scenes/vnscreen.gd" id="1_ap173"]
+[ext_resource type="Texture2D" uid="uid://b0ta8ahr3oyba" path="res://assets/visual_novel_assets/Blank_textbox.png" id="1_qhaqe"]
+
+[node name="VNScreen" type="Node2D"]
+position = Vector2(553, 483)
+scale = Vector2(0.51, 0.51)
+script = ExtResource("1_ap173")
+
+[node name="TextBox" type="Node2D" parent="."]
+
+[node name="Sprite" type="Sprite2D" parent="TextBox"]
+texture = ExtResource("1_qhaqe")
+
+[node name="Text" type="RichTextLabel" parent="TextBox"]
+offset_left = -420.0
+offset_top = -63.0
+offset_right = 494.0
+offset_bottom = 196.0
+theme_override_font_sizes/normal_font_size = 35
+bbcode_enabled = true
+
+[node name="Name" type="RichTextLabel" parent="TextBox"]
+offset_left = -422.0
+offset_top = -159.0
+offset_right = -153.0
+offset_bottom = -88.0
+theme_override_font_sizes/normal_font_size = 42
+bbcode_enabled = true
+text = "[center]"
+
+[node name="BackgroundElements" type="Node2D" parent="."]
+
+[node name="ForegroundElements" type="Node2D" parent="."]
