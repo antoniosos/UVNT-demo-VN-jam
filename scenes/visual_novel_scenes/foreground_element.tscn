@@ -1,5 +1,8 @@
-[gd_scene format=3 uid="uid://beptm4q0fgxpo"]
+[gd_scene load_steps=2 format=3 uid="uid://beptm4q0fgxpo"]
+
+[ext_resource type="Script" path="res://scenes/visual_novel_scenes/foreground_element.gd" id="1_j5irr"]
 
 [node name="ForegroundElement" type="Node2D"]
+script = ExtResource("1_j5irr")
 
 [node name="Sprite" type="Sprite2D" parent="."]
