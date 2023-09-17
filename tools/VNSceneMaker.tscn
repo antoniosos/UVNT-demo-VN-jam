@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://30n2ynk2cjpi"]
+
+[ext_resource type="Texture2D" uid="uid://dblev463f6u4l" path="res://assets/tool_assets/screen_border_10_thick.png" id="1_57aoq"]
+
+[node name="VNSceneMaker" type="Node2D"]
+
+[node name="Window" type="Node2D" parent="."]
+position = Vector2(7, 7)
+scale = Vector2(0.7, 0.7)
+
+[node name="Sprite2D" type="Sprite2D" parent="Window"]
+position = Vector2(-7, -7)
+scale = Vector2(0.99488, 0.991018)
+texture = ExtResource("1_57aoq")
+centered = false
