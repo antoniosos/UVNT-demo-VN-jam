@@ -53,10 +53,15 @@ mode:String = "instant", duration:float = 1.0):
 	#              argument 'duration'. 
 	#              This movement is non-blocking, meaning several elements
 	#              can move at the same time.
-	# · "smooth" - To be implemented when I figure out how the hell to do that
+	# · "smooth" - The element accelerates for half the distance, and 
+	#              deceelerates during the other half. The acceleration and
+	#              deceleration are constant. The argument 'duration' still
+	#              determines the duration of the movement.
 	# More modes may be added in the future.
-	var el = $ForegroundElements.get_node(element_name);
+	var el = $ForegroundElements.get_node(element_name)
 	if mode == "instant":
-		el.position = new_pos;
+		el.position = new_pos
 	elif mode == "linear":
-		el.set_linear_movement(new_pos, duration);
+		el.set_linear_movement(new_pos, duration)
+	elif mode == "smooth":
+		el.set_smooth_movement(new_pos, duration)
