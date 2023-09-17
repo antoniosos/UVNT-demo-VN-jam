@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CharacterResource" load_steps=2 format=3 uid="uid://b47yegnfm6prf"]
+
+[ext_resource type="Script" path="res://scripts/platformer_scripts/platformer_resources/character_resource.gd" id="1_hq8tp"]
+
+[resource]
+script = ExtResource("1_hq8tp")
+health = 100.0
+speed = 5.0
+jump_hight = 7.0
+skills = Array[Resource("res://scripts/platformer_scripts/platformer_resources/skill_resource.gd")]([null, null, null])

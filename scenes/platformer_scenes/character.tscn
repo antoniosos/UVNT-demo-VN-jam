@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://xmmlu45uvrgj"]
+
+[ext_resource type="Script" path="res://scripts/platformer_scripts/character.gd" id="1_y15hg"]
+[ext_resource type="Resource" uid="uid://b47yegnfm6prf" path="res://scripts/platformer_scripts/platformer_resources/Keiji.tres" id="2_xui70"]
+
+[node name="character" type="CharacterBody2D"]
+script = ExtResource("1_y15hg")
+character = ExtResource("2_xui70")
