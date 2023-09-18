@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1_hq8tp")
-health = 100.0
-speed = 5.0
-jump_hight = 7.0
+base_health = 3.0
+base_speed = 4.0
+base_jump_hight = 5.0
 skills = Array[Resource("res://scripts/platformer_scripts/platformer_resources/skill_resource.gd")]([null, null, null])

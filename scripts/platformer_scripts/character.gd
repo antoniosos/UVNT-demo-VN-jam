@@ -6,6 +6,6 @@ extends CharacterBody2D
 @export var character: CharacterResource
 
 ## please don't change since you can't be a constant 🥲
-var health = character.base_health
-var speed = character.base_speed
-var jump_height = character.base_jump_hight
+@onready var health = character.base_health
+@onready var speed = character.base_speed
+@onready var jump_height = character.base_jump_hight

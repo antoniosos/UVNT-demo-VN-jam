@@ -7,3 +7,4 @@ extends Resource
 @export var base_speed: float
 @export var base_jump_hight: float
 @export var skills: Array[SkillResource]
+@export var sprite: Sprite2D

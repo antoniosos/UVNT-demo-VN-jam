@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://p2r5n6i0mca0"]
+[gd_scene load_steps=2 format=3 uid="uid://p2r5n6i0mca0"]
+
+[ext_resource type="PackedScene" uid="uid://xmmlu45uvrgj" path="res://scenes/platformer_scenes/character.tscn" id="1_2gmqo"]
 
 [node name="platformer_dev_grounds" type="Node2D"]
+
+[node name="character" parent="." instance=ExtResource("1_2gmqo")]
