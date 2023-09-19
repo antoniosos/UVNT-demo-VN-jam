@@ -9,3 +9,4 @@ extends CharacterBody2D
 @onready var health = character.base_health
 @onready var speed = character.base_speed
 @onready var jump_height = character.base_jump_hight
+@onready var skills = character.skills
