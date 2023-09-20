@@ -8,5 +8,9 @@ extends CharacterBody2D
 ## please don't change since you can't be a constant 🥲
 @onready var health = character.base_health
 @onready var speed = character.base_speed
-@onready var jump_height = character.base_jump_hight
+@onready var jump_height = character.base_jump_height
 @onready var skills = character.skills
+
+func _ready():
+	for skill in skills:
+		print(skill)
