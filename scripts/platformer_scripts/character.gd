@@ -5,12 +5,15 @@ extends CharacterBody2D
 
 @export var character: CharacterResource
 
-## please don't change since you can't be a constant 🥲
-@onready var health = character.base_health
-@onready var speed = character.base_speed
-@onready var jump_height = character.base_jump_height
-@onready var skills = character.skills
+# character specific stats
+@onready var health := character.base_health
+@onready var speed := character.base_speed
+@onready var jump_height := character.base_jump_height
+@onready var skills := character.skills
+# for all characters
+const GRAVITY: Vector2 = Vector2(0,3000)
+var friction: float = 1.1
 
-func _ready():
-	for skill in skills:
-		print(skill)
+func _physics_process(delta):
+	velocity.x = velocity.x + 1
+	move_and_slide()

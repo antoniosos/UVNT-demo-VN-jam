@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtqgqjjtu5h0"]
+
+[ext_resource type="Texture2D" uid="uid://drivnawq8lr2c" path="res://assets/platformer_assets/sprites/character_sprites/shadertoytricolor2.png" id="1_8d7pf"]
+
+[node name="Keiji_sprite" type="Sprite2D"]
+texture = ExtResource("1_8d7pf")
