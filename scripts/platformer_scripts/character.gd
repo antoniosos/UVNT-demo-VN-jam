@@ -10,7 +10,7 @@ extends CharacterBody2D
 @onready var speed := character.base_speed
 @onready var jump_height := character.base_jump_height
 @onready var skills := character.skills
-# for all characters
+# stats for all characters
 const GRAVITY: Vector2 = Vector2(0,3000)
 var friction: float = 1.1
 

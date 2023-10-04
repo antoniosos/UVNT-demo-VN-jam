@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1_hq8tp")
-base_health = 3.0
-base_speed = 200
+base_health = 0.0
+base_speed = 0
 base_jump_height = 0
 skills = Array[int]([])
