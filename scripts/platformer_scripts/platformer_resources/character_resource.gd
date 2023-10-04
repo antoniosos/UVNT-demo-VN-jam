@@ -21,7 +21,7 @@ enum Jump_Height {
 	HIGH = 600	## Character can jump over every obstacle
 }
 
-## Skills which characters can have, each character can have multiple
+## Skills which characters can have, each character can have multiple (this system won't work, its gonna get replaced)
 enum Skills {
 	TMP,
 	TMP2,
