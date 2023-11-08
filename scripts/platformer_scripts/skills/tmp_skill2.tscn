@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcpyk7cws1dn1"]
+
+[ext_resource type="Script" path="res://scripts/platformer_scripts/skills/skill_scripts/tmp_skill2.gd" id="1_jlyjj"]
+
+[node name="tmp_skill2" type="Node"]
+script = ExtResource("1_jlyjj")

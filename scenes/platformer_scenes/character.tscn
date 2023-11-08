@@ -1,7 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://xmmlu45uvrgj"]
+[gd_scene load_steps=5 format=3 uid="uid://xmmlu45uvrgj"]
 
 [ext_resource type="Script" path="res://scripts/platformer_scripts/character.gd" id="1_y15hg"]
-[ext_resource type="Resource" uid="uid://b47yegnfm6prf" path="res://scripts/platformer_scripts/platformer_resources/Keiji.tres" id="2_xui70"]
 [ext_resource type="Script" path="res://scenes/platformer_scenes/sprite_animation_manager.gd" id="3_rq65c"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4xn6h"]
@@ -10,7 +9,6 @@
 
 [node name="character" type="CharacterBody2D"]
 script = ExtResource("1_y15hg")
-character = ExtResource("2_xui70")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_4xn6h")
